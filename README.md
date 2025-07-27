@@ -1,5 +1,5 @@
 # Bond Price Prediction Using Machine Learning
----
+
 This project predicts the **price of Germany's 10-Year Government Bond** using historical data and machine learning. The model is built using Python and trained with a **Random Forest Regressor**.
 
 ![Bond Prediction Chart](Bond%20Price%20Prediction%20Chart.png)
