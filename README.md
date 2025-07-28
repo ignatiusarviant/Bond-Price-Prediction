@@ -8,7 +8,7 @@ This project predicts the **price of Germany's 10-Year Government Bond** using h
 
 Bond prices are influenced by many economic indicators, including interest rates and market momentum. This project uses financial time series data and technical indicators to predict future bond prices. It can be a helpful reference for students, researchers, and analysts interested in financial forecasting with machine learning.
 
-This project was developed as part of a personal machine learning portfolio to apply regression modeling techniques to real-world financial data.
+This project was developed as part of a personal machine learning portfolio to apply regression modelling techniques to real-world financial data.
 
 ## Files Included
 
