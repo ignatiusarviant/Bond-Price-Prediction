@@ -19,7 +19,7 @@ except FileNotFoundError:
 features = [
     "Price Lag 1", "Price Lag 2", "Price Return 1d",
     "Momentum 3d", "MA 5d", "MA 10d", "Volatility 5d",
-    "Change %", "Interest Rate"
+    "Change %"
 ]
 target = "Price"
 
