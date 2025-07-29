@@ -4,9 +4,11 @@ import os
 try:
     csv_path = os.path.join(os.path.dirname(__file__), "Germany 10-Year Bond Yield Historical Data.csv")
     file = pd.read_csv(csv_path)
+    
 except FileNotFoundError:
     print("Make sure the files 'Germany 10-Year Bond Yield Historical Data.csv' are available.")
     exit()
+    
 df = pd.DataFrame(file)
 df.drop(columns=["Open", "High", "Low"], inplace=True)
 
