@@ -11,6 +11,7 @@ try:
     csv_test_path = os.path.join(os.path.dirname(__file__), "Germany 10-Year Bond Test Data.csv")
     train_df = pd.read_csv(csv_train_path)
     test_df = pd.read_csv("Germany 10-Year Bond Test Data.csv")
+    
 except FileNotFoundError:
     print("Make sure the files 'Germany 10-Year Bond Training Data.csv' and 'Germany 10-Year Bond Test Data.csv' are available.")
     print("Please run the scripts Training_data_processing.py and Test_data_processing.py first.")
