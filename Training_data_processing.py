@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 try:
     csv_path = os.path.join(os.path.dirname(__file__), "Germany 10-Year Bond Yield Historical Data.csv")
