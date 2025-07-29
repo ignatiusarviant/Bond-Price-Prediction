@@ -42,14 +42,13 @@ df["Momentum 3d"] = df["Price"].diff(3)
 df["MA 5d"] = df["Price"].rolling(window=5).mean()
 df["MA 10d"] = df["Price"].rolling(window=10).mean()
 df["Volatility 5d"] = df["Price Return 1d"].rolling(window=5).std()
-df["Interest Rate"] = df.apply(interest_rate_addition, axis=1)
 df["Change %"] = df["Change %"].str.replace("%", "").astype(float)
 df = df.dropna().reset_index(drop=True)
 
 df = df[[
     "Date", "Price", "Price Lag 1", "Price Lag 2", "Price Return 1d",
     "Momentum 3d", "MA 5d", "MA 10d", "Volatility 5d",
-    "Change %", "Interest Rate"
+    "Change %"
 ]]
 
 print(df)
