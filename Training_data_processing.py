@@ -1,6 +1,6 @@
 import pandas as pd
 
-file = pd.read_csv("C:\\Users\\HP\\Downloads\\Python Only\\Bond Price ML\\Germany 10-Year Bond Yield Historical Data.csv")
+file = pd.read_csv("Germany 10-Year Bond Yield Historical Data.csv")
 df = pd.DataFrame(file)
 df.drop(columns=["Open", "High", "Low"], inplace=True)
 
