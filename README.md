@@ -6,7 +6,7 @@ This project predicts the **price of Germany's 10-Year Government Bond** using h
 
 Here is the link to the website that is connected to the Azure web app:
 
-[Live Web App on Azure](bondpriceprediction-bebzgtfgbvaehbc8.southeastasia-01.azurewebsites.net)
+[Live Web App on Azure](https://bondpriceprediction-bebzgtfgbvaehbc8.southeastasia-01.azurewebsites.net)
 
 ## About This Project
 
