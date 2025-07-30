@@ -4,6 +4,10 @@ This project predicts the **price of Germany's 10-Year Government Bond** using h
 
 ![Bond Prediction Chart](Bond%20Price%20Prediction%20Chart.png)
 
+Here is the link to the website that is connected to the Azure web app:
+
+[Live Web App on Azure](bondpriceprediction-bebzgtfgbvaehbc8.southeastasia-01.azurewebsites.net)
+
 ## About This Project
 
 Bond prices are influenced by many economic indicators, including interest rates and market momentum. This project uses financial time series data and technical indicators to predict future bond prices. It can be a helpful reference for students, researchers, and analysts interested in financial forecasting with machine learning.
@@ -64,5 +68,5 @@ The model produces a line chart showing both **Predicted Prices** and **Actual P
 
 Install dependencies using:
 ```bash
-pip install pandas scikit-learn matplotlib seaborn
+pip install pandas scikit-learn matplotlib seaborn streamlit
 ```
